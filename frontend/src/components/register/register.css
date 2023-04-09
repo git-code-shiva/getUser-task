@@ -1,0 +1,66 @@
+.container-signup{
+    background-color: rgb(234, 129, 91);
+    height: 100vh;
+    display: flex;
+}
+.pass-alert{
+    color: red;
+}
+.main-container-signup{
+    background-color: white;
+    margin: 0px auto;
+    width: 60%;
+}
+.signup-header{
+    padding: 50px;
+    padding-left: 30px;
+    font-size: 50px;
+    color:  rgb(179, 176, 176);
+}
+.goBack-signup{
+    text-decoration: none;
+    margin-right: 30px;
+}
+.main-signup{
+    width: 80%;
+    margin: 10px auto;
+}
+.input-container-signup{
+    margin-bottom: 40px;
+}
+.in-signup{
+    height: 50px;
+    width: 99%;
+    border:none;
+    border-bottom:2px solid rgb(179, 176, 176) ;
+
+}
+.checkbox-container-signup{
+    margin-bottom: 30px;
+}
+.y{
+    height: 25px;
+    width: 25px;
+}
+.Remember-signup{
+    font-size: 20px;
+    color: rgb(179, 176, 176);
+}
+.terms-condition{
+    color: gray;
+}
+.sign-up-btn{
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    border:1px solid white;
+    background: rgb(234, 129, 91);
+    color: rgb(12, 10, 10);
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sign-up-btn:hover{
+    background: rgb(207, 116, 83);
+}

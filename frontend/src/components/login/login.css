@@ -1,0 +1,78 @@
+.container_signin{
+    background-color: rgb(28, 141, 248);
+    height: 100vh;
+    display: flex;
+}
+
+.main_container_signin{
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 50%;
+    margin: 50px auto;
+    box-sizing: border-box;
+}
+
+.main_signin{
+    margin: auto;
+    width: 80%;
+    height: 100%;
+}
+
+.signin_header{
+    text-align: center;
+    padding: 30px;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 30px;    
+}
+
+.input_container{
+    padding: 0 0 1em 0;
+}
+
+.password_heading, .email_heading{
+    font-size: 18px;
+    padding: 0 0 0.2em 0;
+    font-weight: 500;
+}
+
+.remember{
+    font-weight: 450;
+    font-size: 16px;
+}
+
+.x{
+    width: 20px;
+    height: 20px;
+}
+
+.signin_btn{
+    height: 40px;
+    width: 100%;
+    background: rgb(28, 141, 248);
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 550;
+    color: azure;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+.in_signin{
+    width: 90%;
+    height: 40px;
+}
+.reg_nav_btn{
+    height: 40px;
+    width: 100%;
+    background: rgb(203, 167, 34);
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 550;
+    color: azure;
+    border: 1px solid white;
+    cursor: pointer;
+}
