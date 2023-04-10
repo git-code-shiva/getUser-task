@@ -5,21 +5,28 @@ import "./home.css";
 const Home = () => {
   const [post, setPost] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
-  const [flag, setFlag] = useState(true);
 
   const handleSearch = async (e) => {
     e.preventDefault();
+    if(searchTerm){
     await axios
       .get(`http://localhost:8081/all/${searchTerm}`)
       .then((response) => {
-        //   console.log(response.data)
+          console.log(response.data)
         setPost(response.data);
-        console.log(post);
-        setFlag(false);
+        // console.log(post);
+        setSearchTerm("")
       })
       .catch((err) => {
         console.log(err);
+        if(err.response.data.message === "There is no User With This Name"){
+          alert("There is no user with this name, Search again")
+        }
       });
+    }
+    else{
+      alert("please search something")
+    }
   };
 
   return (
